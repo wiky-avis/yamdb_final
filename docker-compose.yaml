@@ -12,7 +12,7 @@ services:
       - DB_HOST
       - DB_PORT
   web:
-    build: .
+    image: 79452165/yamdb:v1
     restart: always
     volumes:
       - static_value:/code/static/

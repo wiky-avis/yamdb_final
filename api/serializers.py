@@ -54,8 +54,7 @@ class СheckingConfirmationCodeSerializer(serializers.Serializer):
                 {
                     'detail': 'Такого пользователя нет или неверный код '
                     'подтверждения или email'})
-        token = {'token': str(AccessToken.for_user(user))}
-        return token
+        return {'token': str(AccessToken.for_user(user))}
 
 
 class CategorySerializer(serializers.ModelSerializer):

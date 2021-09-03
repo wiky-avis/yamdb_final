@@ -123,11 +123,10 @@ class ReviewViewSet(viewsets.ModelViewSet):
 
     def get_title(self):
         title_id = self.kwargs.get('title_id')
-        title = get_object_or_404(
+        return get_object_or_404(
             Title.objects.prefetch_related('reviews'),
             id=title_id
-        )
-        return title
+            )
 
     def get_queryset(self):
         title = self.get_title()

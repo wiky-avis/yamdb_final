@@ -6,12 +6,10 @@ services:
     image: postgres:12.4
     volumes:
       - postgres_data:/var/lib/postgresql/data/
-    environment:
-      - POSTGRES_USER
-      - POSTGRES_PASSWORD
-      - DB_HOST
-      - DB_PORT
+    env_file:
+      - ./.env
   web:
+    container_name: web
     image: 79452165/yamdb:v1
     restart: always
     volumes:

@@ -9,7 +9,6 @@ services:
     env_file:
       - ./.env
   web:
-    container_name: web
     image: 79452165/yamdb:v1
     restart: always
     volumes:

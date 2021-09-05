@@ -38,7 +38,7 @@ Python 3, Django 3, Django REST Framework, Docker, PostgreSQL, Simple-JWT, GIT.
 
 Склонируйте репозиторий на локальную машину:
 
-  `git clone https://github.com/wiky-avis/api_yamdb.git`
+  `git clone https://github.com/wiky-avis/yamdb_final.git`
 
 Запустите docker-compose:
 

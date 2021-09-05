@@ -2,7 +2,7 @@
 
 ![example workflow](https://github.com/wiky-avis/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
-Ip-адрес сервера, на котором запущено приложение [Тыц](http://84.201.153.34/api/v1/)
+Ip-адрес сервера, на котором запущено приложение [84.201.153.34](http://84.201.153.34/api/v1/)
 
 # REST API Yamdb – база отзывов пользователей о произведениях.
 

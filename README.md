@@ -38,7 +38,7 @@ Python 3, Django 3, Django REST Framework, Docker, PostgreSQL, Simple-JWT, GIT.
 
 Склонируйте репозиторий на локальную машину:
 
-  `git clone https://github.com/wiky-avis/api_yamdb.git`
+  `git clone https://github.com/wiky-avis/yamdb_final.git`
 
 Запустите docker-compose:
 
@@ -52,7 +52,7 @@ Python 3, Django 3, Django REST Framework, Docker, PostgreSQL, Simple-JWT, GIT.
 
   `docker-compose exec web python manage.py collectstatic --no-input`
   
-Проект запущен и доступен по адресу [http://127.0.0.1/](http://127.0.0.1/).
+Проект запущен и доступен по адресу [http://localhost/](http://localhost/).
 
 Создаем суперпользователя:
 
@@ -66,13 +66,13 @@ Python 3, Django 3, Django REST Framework, Docker, PostgreSQL, Simple-JWT, GIT.
 
   `docker-compose down`
 
-API доступен по адресу [http://127.0.0.1/api/v1/](http://127.0.0.1/api/v1/).
+API доступен по адресу [http://localhost/api/v1/](http://localhost/api/v1/).
 
 Скачать образ YaMDb из репозитория на DockerHub:
 
   `docker pull 79452165/yamdb_final:v1`
 
-Проект также настроен для автоматического разворачивания на сервере.
+Также настроен workflow для автоматического разворачивания на сервере.
 
 ## Автор:
-Аксентий Виктория [GitHub](https://github.com/wiky-avis)
+[Аксентий Виктория](https://github.com/wiky-avis)

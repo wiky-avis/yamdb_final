@@ -2,8 +2,6 @@
 
 ![example workflow](https://github.com/wiky-avis/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
-Ip-адрес сервера, на котором запущено приложение [84.201.153.34](http://84.201.153.34/api/v1/)
-
 # REST API Yamdb – база отзывов пользователей о произведениях.
 
 ## Стек: 
@@ -73,6 +71,3 @@ API доступен по адресу [http://localhost/api/v1/](http://localho
   `docker pull 79452165/yamdb_final:v1`
 
 Также настроен workflow для автоматического разворачивания на сервере.
-
-## Автор:
-[Аксентий Виктория](https://github.com/wiky-avis)
